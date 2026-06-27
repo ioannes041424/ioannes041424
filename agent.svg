@@ -11,13 +11,13 @@
   <circle cx="24" cy="22" r="4.5" fill="#8A633C"/>
   <circle cx="40" cy="22" r="4.5" fill="#A99E90"/>
   <circle cx="56" cy="22" r="4.5" fill="#C2925A"/>
-  <text x="78" y="27" font-size="13.5" fill="#C2925A">claude-code</text>
-  <text x="180" y="27" font-size="13.5" fill="#5C564F">~/portfolio</text>
+  <text x="78" y="27" font-size="13.5" fill="#C2925A">ioannes-dev</text>
+  <text x="184" y="27" font-size="13.5" fill="#5C564F">~/portfolio</text>
   <text x="736" y="27" font-size="12" fill="#A99E90" text-anchor="end">agent</text>
 
   <g clip-path="url(#agClip)" font-size="13.5">
     <!-- user prompt (always on) -->
-    <text x="28" y="82"><tspan fill="#C2925A">&#62;</tspan><tspan fill="#ECE6DC" dx="8">claude</tspan><tspan fill="#8A633C" dx="8">"add a realtime voice-agent endpoint"</tspan></text>
+    <text x="28" y="82"><tspan fill="#C2925A">&#62;</tspan><tspan fill="#ECE6DC" dx="8">jpt</tspan><tspan fill="#8A633C" dx="8">"add a realtime voice-agent endpoint"</tspan></text>
 
     <!-- spinner + status -->
     <circle cx="35" cy="113" r="7.5" fill="none" stroke="#D8A566" stroke-width="2" stroke-linecap="round" stroke-dasharray="35 14">
