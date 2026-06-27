@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="860" height="318" viewBox="0 0 860 318" role="img" aria-label="git log of experience. HEAD on main: AI Solutions Engineer at OneTouch Networks, Remote SF, July 2025 to present — design and ship AI agents that automate workflows for real clients; deploy and maintain production AI systems. Previous: Freelance AI Engineer and Full-Stack Developer, independent and remote, 2024 to 2025 — built AI tools, automation and full-stack web apps; shipped Django and React products end to end." font-family="'JetBrains Mono','SFMono-Regular','Courier New',monospace">
+  <defs>
+    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C2925A"/>
+      <stop offset="1" stop-color="#8A633C"/>
+    </linearGradient>
+    <radialGradient id="headGlow"><stop offset="0" stop-color="#D8A566" stop-opacity="0.8"/><stop offset="1" stop-color="#D8A566" stop-opacity="0"/></radialGradient>
+    <clipPath id="exClip"><rect x="1" y="1" width="858" height="316" rx="9"/></clipPath>
+  </defs>
+
+  <!-- panel -->
+  <rect x="0.5" y="0.5" width="859" height="317" rx="9" fill="#201F1F" stroke="#3A3836" stroke-width="1"/>
+  <!-- title bar -->
+  <line x1="0" y1="46" x2="860" y2="46" stroke="#3A3836" stroke-width="1"/>
+  <circle cx="26" cy="23" r="5" fill="#8A633C"/>
+  <circle cx="44" cy="23" r="5" fill="#A99E90"/>
+  <circle cx="62" cy="23" r="5" fill="#C2925A"/>
+  <text x="86" y="28" font-size="15" fill="#C2925A">~/experience</text>
+  <text x="834" y="28" font-size="13" fill="#A99E90" text-anchor="end">git log</text>
+
+  <g clip-path="url(#exClip)">
+    <!-- prompt -->
+    <text x="34" y="84" font-size="15.5"><tspan fill="#C2925A">$</tspan><tspan fill="#D8C4AD" dx="9">git log --oneline --graph ~/experience</tspan></text>
+
+    <!-- commit-graph rail -->
+    <rect x="50" y="116" width="2" height="118" fill="url(#rail)"/>
+
+    <!-- commit 1 — HEAD -->
+    <circle cx="51" cy="120" r="13" fill="url(#headGlow)"><animate attributeName="r" values="10;15;10" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="51" cy="120" r="6" fill="#201F1F" stroke="#C2925A" stroke-width="2.5"/>
+    <text x="78" y="116" font-size="14.5"><tspan fill="#C2925A">7a1f9c2</tspan><tspan fill="#8A633C"> (</tspan><tspan fill="#D8A566">HEAD -&gt; main</tspan><tspan fill="#8A633C">)</tspan></text>
+    <text x="78" y="139" font-size="15"><tspan fill="#ECE6DC">AI Solutions Engineer</tspan><tspan fill="#A99E90">&#160;&#183; OneTouch Networks &#8212; Remote (SF)</tspan></text>
+    <text x="78" y="159" font-size="13" fill="#A99E90">Jul 2025 &#8212; Present</text>
+    <text x="78" y="182" font-size="14"><tspan fill="#C2925A">&#9656;</tspan><tspan fill="#D8C4AD" dx="8">Design &amp; ship AI agents that automate workflows for real clients</tspan></text>
+    <text x="78" y="203" font-size="14"><tspan fill="#C2925A">&#9656;</tspan><tspan fill="#D8C4AD" dx="8">Deploy &amp; maintain production AI systems for reliability at scale</tspan></text>
+
+    <!-- commit 2 -->
+    <circle cx="51" cy="230" r="6" fill="#201F1F" stroke="#8A633C" stroke-width="2.5"/>
+    <text x="78" y="226" font-size="14.5"><tspan fill="#C2925A">d4e2b08</tspan></text>
+    <text x="78" y="249" font-size="15"><tspan fill="#ECE6DC">Freelance AI Engineer &amp; Full-Stack Developer</tspan><tspan fill="#A99E90">&#160;&#183; Independent</tspan></text>
+    <text x="78" y="269" font-size="13" fill="#A99E90">2024 &#8212; 2025</text>
+    <text x="78" y="292" font-size="14"><tspan fill="#C2925A">&#9656;</tspan><tspan fill="#D8C4AD" dx="8">Built AI tools, automation &amp; full-stack apps; shipped Django + React end to end</tspan></text>
+  </g>
+</svg>

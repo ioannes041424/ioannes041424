@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="860" height="304" viewBox="0 0 860 304" role="img" aria-label="whoami — John Paul Tayong: AI Solutions Engineer at OneTouch Networks, based in Cebu Philippines, focused on voice agents, RAG, LLM integration and automation; stack Python, FastAPI, React, Next.js, TypeScript; open to AI engineering and full-stack work" font-family="'JetBrains Mono','SFMono-Regular','Courier New',monospace">
+  <defs>
+    <linearGradient id="wmSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FBEAD0" stop-opacity="0"/>
+      <stop offset="0.46" stop-color="#FBEAD0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FBEAD0" stop-opacity="0.06"/>
+      <stop offset="0.54" stop-color="#FBEAD0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FBEAD0" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="6.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="wmClip"><rect x="1" y="1" width="858" height="302" rx="9"/></clipPath>
+  </defs>
+
+  <!-- panel -->
+  <rect x="0.5" y="0.5" width="859" height="303" rx="9" fill="#201F1F" stroke="#3A3836" stroke-width="1"/>
+  <!-- title bar -->
+  <line x1="0" y1="46" x2="860" y2="46" stroke="#3A3836" stroke-width="1"/>
+  <circle cx="26" cy="23" r="5" fill="#8A633C"/>
+  <circle cx="44" cy="23" r="5" fill="#A99E90"/>
+  <circle cx="62" cy="23" r="5" fill="#C2925A"/>
+  <text x="86" y="28" font-size="15" fill="#C2925A">~/whoami</text>
+  <circle cx="772" cy="23" r="4" fill="#C2925A"><animate attributeName="opacity" values="1;0.25;1" dur="1.7s" repeatCount="indefinite"/></circle>
+  <text x="786" y="28" font-size="13" fill="#A99E90">available</text>
+
+  <g clip-path="url(#wmClip)">
+    <!-- prompt -->
+    <text x="34" y="86" font-size="15.5"><tspan fill="#C2925A">$</tspan><tspan fill="#ECE6DC" dx="9">whoami</tspan></text>
+    <rect x="126" y="74" width="9" height="16" fill="#C2925A"><animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/></rect>
+
+    <!-- key / value rows (monospace dot-leaders align by char count) -->
+    <text x="34" y="124" font-size="15"><tspan fill="#C2925A">role</tspan><tspan fill="#4F4A45">&#160;.......&#160;</tspan><tspan fill="#ECE6DC">AI Solutions Engineer</tspan><tspan fill="#A99E90">&#160;@ OneTouch Networks</tspan><tspan fill="#8A633C">&#160;(Remote &#183; SF)</tspan></text>
+    <text x="34" y="153" font-size="15"><tspan fill="#C2925A">based</tspan><tspan fill="#4F4A45">&#160;......&#160;</tspan><tspan fill="#D8C4AD">Cebu, Philippines</tspan><tspan fill="#8A633C">&#160;&#183; remote-first</tspan></text>
+    <text x="34" y="182" font-size="15"><tspan fill="#C2925A">focus</tspan><tspan fill="#4F4A45">&#160;......&#160;</tspan><tspan fill="#D8C4AD">Voice agents &#183; RAG &#183; LLM integration &#183; automation</tspan></text>
+    <text x="34" y="211" font-size="15"><tspan fill="#C2925A">stack</tspan><tspan fill="#4F4A45">&#160;......&#160;</tspan><tspan fill="#D8C4AD">Python &#183; FastAPI &#183; React &#183; Next.js &#183; TypeScript</tspan></text>
+    <text x="34" y="240" font-size="15"><tspan fill="#C2925A">edu</tspan><tspan fill="#4F4A45">&#160;........&#160;</tspan><tspan fill="#D8C4AD">BS Computer Engineering &#8212; CTU, Danao</tspan></text>
+    <text x="34" y="269" font-size="15"><tspan fill="#C2925A">status</tspan><tspan fill="#4F4A45">&#160;.....&#160;</tspan><tspan fill="#C2925A">&#9679;</tspan><tspan fill="#ECE6DC">&#160;open to AI engineering &amp; full-stack work</tspan></text>
+
+    <rect x="0" y="46" width="860" height="258" fill="url(#wmSheen)"/>
+  </g>
+</svg>
