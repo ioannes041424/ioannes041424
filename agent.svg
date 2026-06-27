@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="296" viewBox="0 0 760 296" role="img" aria-label="An AI coding agent session building a voice-agent endpoint: reads, edits, builds and writes files, then reports build passing." font-family="'JetBrains Mono','SFMono-Regular','Courier New',monospace">
+  <defs>
+    <radialGradient id="agGlow"><stop offset="0" stop-color="#D8A566" stop-opacity="0.35"/><stop offset="1" stop-color="#D8A566" stop-opacity="0"/></radialGradient>
+    <clipPath id="agClip"><rect x="1" y="1" width="758" height="294" rx="9"/></clipPath>
+  </defs>
+
+  <!-- panel -->
+  <rect x="0.5" y="0.5" width="759" height="295" rx="9" fill="#201F1F" stroke="#3A3836" stroke-width="1"/>
+  <!-- title bar -->
+  <line x1="0" y1="44" x2="760" y2="44" stroke="#3A3836" stroke-width="1"/>
+  <circle cx="24" cy="22" r="4.5" fill="#8A633C"/>
+  <circle cx="40" cy="22" r="4.5" fill="#A99E90"/>
+  <circle cx="56" cy="22" r="4.5" fill="#C2925A"/>
+  <text x="78" y="27" font-size="13.5" fill="#C2925A">claude-code</text>
+  <text x="180" y="27" font-size="13.5" fill="#5C564F">~/portfolio</text>
+  <text x="736" y="27" font-size="12" fill="#A99E90" text-anchor="end">agent</text>
+
+  <g clip-path="url(#agClip)" font-size="13.5">
+    <!-- user prompt (always on) -->
+    <text x="28" y="82"><tspan fill="#C2925A">&#62;</tspan><tspan fill="#ECE6DC" dx="8">claude</tspan><tspan fill="#8A633C" dx="8">"add a realtime voice-agent endpoint"</tspan></text>
+
+    <!-- spinner + status -->
+    <circle cx="35" cy="113" r="7.5" fill="none" stroke="#D8A566" stroke-width="2" stroke-linecap="round" stroke-dasharray="35 14">
+      <animateTransform attributeName="transform" type="rotate" from="0 35 113" to="360 35 113" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="52" y="118"><tspan fill="#D8A566">Forging</tspan><tspan fill="#5C564F" dx="10">esc to interrupt</tspan></text>
+
+    <!-- tool call 1: Read -->
+    <g opacity="0"><animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.16;0.185;0.93;0.97;1" values="0;0;1;1;0;0"/>
+      <text x="30" y="150" fill="#5C564F">&#9492;</text>
+      <text x="52" y="150" fill="#C2925A">Read</text>
+      <text x="116" y="150" fill="#A99E90">lib/agent/session.ts</text>
+      <text x="732" y="150" fill="#5C564F" text-anchor="end">scanned</text>
+    </g>
+    <!-- tool call 2: Edit -->
+    <g opacity="0"><animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.30;0.325;0.93;0.97;1" values="0;0;1;1;0;0"/>
+      <text x="30" y="178" fill="#5C564F">&#9492;</text>
+      <text x="52" y="178" fill="#C2925A">Edit</text>
+      <text x="116" y="178" fill="#A99E90">app/api/voice/route.ts</text>
+      <text x="732" y="178" text-anchor="end"><tspan fill="#C2925A">+46</tspan><tspan fill="#6E665C" dx="6">&#8722;3</tspan></text>
+    </g>
+    <!-- tool call 3: Bash -->
+    <g opacity="0"><animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.44;0.465;0.93;0.97;1" values="0;0;1;1;0;0"/>
+      <text x="30" y="206" fill="#5C564F">&#9492;</text>
+      <text x="52" y="206" fill="#C2925A">Bash</text>
+      <text x="116" y="206" fill="#A99E90">npm run build</text>
+      <text x="732" y="206" text-anchor="end"><tspan fill="#C2925A">&#10003;</tspan><tspan fill="#6E665C" dx="6">passed</tspan></text>
+    </g>
+    <!-- tool call 4: Write -->
+    <g opacity="0"><animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.58;0.605;0.93;0.97;1" values="0;0;1;1;0;0"/>
+      <text x="30" y="234" fill="#5C564F">&#9492;</text>
+      <text x="52" y="234" fill="#C2925A">Write</text>
+      <text x="116" y="234" fill="#A99E90">components/VoicePanel.tsx</text>
+      <text x="732" y="234" fill="#5C564F" text-anchor="end">created</text>
+    </g>
+
+    <!-- done -->
+    <g opacity="0"><animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.74;0.77;0.93;0.97;1" values="0;0;1;1;0;0"/>
+      <circle cx="34" cy="266" r="11" fill="url(#agGlow)"/>
+      <text x="28" y="271" font-size="14"><tspan fill="#C2925A">&#10003;</tspan><tspan fill="#ECE6DC" dx="10">shipped</tspan><tspan fill="#5C564F" dx="10">3 files changed &#183; build passing</tspan></text>
+    </g>
+  </g>
+</svg>
