@@ -16,7 +16,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=900&color=C2925A&center=true&vCenter=true&width=560&height=34&lines=AI+Engineer+%7C+Full-Stack+Developer;I+turn+frontier+models+into+products+that+ship;Voice+AI+%C2%B7+RAG+%C2%B7+automation" alt="AI Engineer and Full-Stack Developer" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=900&color=C2925A&center=true&vCenter=true&width=600&height=34&lines=AI+Engineer+%7C+Full-Stack+Developer;I+turn+frontier+models+into+systems+that+ship;AI+agents+%C2%B7+RAG+%C2%B7+automation+%C2%B7+full-stack" alt="AI Engineer and Full-Stack Developer" />
 
 <br/>
 
@@ -39,10 +39,10 @@
 
 </div>
 
-> I build at the **application layer** — taking frontier models like **OpenAI** and **Gemini** and
-> engineering them into systems that hold up in production: **voice agents, RAG pipelines, LLM
-> integrations, and automation**, plus the **full-stack** around them. I focus on the part most
-> demos skip: making it reliable, maintainable, and genuinely useful.
+> I build **systems** at the application layer — taking frontier models like **OpenAI** and
+> **Gemini** and engineering them into production: **AI agents, RAG pipelines, LLM integrations,
+> and automation**, plus the **full-stack** around them — APIs, dashboards, and end-to-end
+> products. I focus on the part most demos skip: making it reliable, maintainable, and genuinely useful.
 
 <img src="./divider.svg" width="100%" alt="" />
 
