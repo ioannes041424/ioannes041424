@@ -12,11 +12,11 @@
 <!-- ░░░░░░░░░░░░░░░░░░░░  HERO  ░░░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
 
-<img src="./wordmark.svg" width="380" alt="John Paul Tayong" />
+<img src="./hero.svg" width="100%" alt="John Paul Tayong — AI Engineer and Full-Stack Developer" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=900&color=C2925A&center=true&vCenter=true&width=600&height=34&lines=AI+Engineer+%7C+Full-Stack+Developer;I+turn+frontier+models+into+systems+that+ship;AI+agents+%C2%B7+RAG+%C2%B7+automation+%C2%B7+full-stack" alt="AI Engineer and Full-Stack Developer" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1000&color=A99E90&center=true&vCenter=true&width=560&height=26&lines=I+turn+frontier+models+into+systems+that+ship;AI+agents+%C2%B7+RAG+%C2%B7+automation+%C2%B7+full-stack" alt="I turn frontier models into systems that ship" />
 
 <br/>
 
